@@ -1,0 +1,22 @@
+nav {
+    background-color: bisque;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+nav ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+nav li {
+    list-style-type: none;
+    color: tomato;
+    margin: 0 12px;
+    float: right;
+}
+p {
+    margin: 4em;
+}
