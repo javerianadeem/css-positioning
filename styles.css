@@ -1,4 +1,4 @@
-p, a {
+p.para, a.link {
     margin: 1em;
     background-color: bisque;
     padding: 10px;
@@ -7,13 +7,124 @@ p, a {
     width: 30%;
 
 }
-h1 {
-    color: cornflowerblue;
-    font-family: monospace;
-    text-align: center;
-}
-h2 {
+.h2 {
     color: darkolivegreen;
     text-decoration-line: underline;
-    margin-left: 1em;
+    margin-top: 4em;
+}
+.normalflow {
+    background-color: darkkhaki;
+    margin: 2em;
+    padding: 4px; 
+}
+div.para {
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 40px;
+    column-gap: 40px;
+    -webkit-column-rule: 2px solid steelblue;
+    column-rule: 2px solid steelblue;
+    border: 2px solid steelblue;
+    background-color: ghostwhite;
+}
+img.beachimg {
+    float: left;
+    margin: 1em;
+    border: 3px solid maroon;
+}
+p.pp {
+    padding-top: 20px;
+    color: brown 
+}
+img.treeimg {
+    float: right;
+    margin: 1em;
+    border: 3px solid maroon;
+}
+.xyz h3, .xyz p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2em;
+}
+.xyz {
+    float: left;
+    width: 30.5%;
+    border: 2px solid rosybrown;
+    margin: 1em;
+    background-color: blanchedalmond;
+    position: relative;
+}
+.maindiv::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+section, aside {
+    float: left;
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid saddlebrown;
+    padding-bottom: 5px;
+}
+.xyz:nth-child(1) {
+    top: 5px;
+}
+.xyz:nth-child(2) {
+    top: 15px;
+}
+.xyz:nth-child(3) {
+    top: 20px;
+}
+#banner {
+    position: relative;
+    max-height: 120px;
+    margin: 1%;
+    overflow: hidden;
+}
+#banner h2 {
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    left: 10px;
+    color: black;
+}
+.para {
+    max-height: 180px;
+    overflow: hidden;
+}
+h2.bannerheading {
+    margin-left: 35%;
+    text-decoration-line: underline;
+    color: darkolivegreen;
+}
+nav {
+    background-color: rgb(163, 10, 86);
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+nav ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+nav li {
+    list-style-type: none;
+    color: whitesmoke;
+    margin: 0 12px;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+#divp {
+    margin: 3em auto;
+    max-width: 960px;
+    padding: 20px;
+}
+.pppara {
+    max-height: 180px;
+    overflow: hidden;
 }
