@@ -1,4 +1,3 @@
-
 img.beachimg {
     float: left;
     margin: 1em;
@@ -59,4 +58,8 @@ section, aside {
     top: 0px;
     left: 10px;
     color: black;
+}
+.para {
+    max-height: 180px;
+    overflow: hidden;
 }
