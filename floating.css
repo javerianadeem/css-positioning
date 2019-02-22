@@ -1,0 +1,15 @@
+
+img.beachimg {
+    float: left;
+    margin: 1em;
+    border: 3px solid maroon;
+}
+p {
+    padding-top: 20px;
+    color: brown 
+}
+img.treeimg {
+    float: right;
+    margin: 1em;
+    border: 3px solid maroon;
+}
