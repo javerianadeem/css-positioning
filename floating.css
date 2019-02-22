@@ -24,6 +24,7 @@ img.treeimg {
     border: 2px solid rosybrown;
     margin: 1em;
     background-color: blanchedalmond;
+    position: relative;
 }
 .maindiv::after{
     content: "";
@@ -36,4 +37,13 @@ section, aside {
     margin: 1%;
     padding: 1%;
     border: 1px solid saddlebrown;
+}
+.xyz:nth-child(1) {
+    top: 5px;
+}
+.xyz:nth-child(2) {
+    top: 15px;
+}
+.xyz:nth-child(3) {
+    top: 20px;
 }
