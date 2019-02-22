@@ -47,3 +47,16 @@ section, aside {
 .xyz:nth-child(3) {
     top: 20px;
 }
+#banner {
+    position: relative;
+    max-height: 100px;
+    margin: 1%;
+    overflow: hidden;
+}
+#banner h2 {
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    left: 10px;
+    color: black;
+}
